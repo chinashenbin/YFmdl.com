@@ -1,0 +1,28 @@
+07:14:54-958 ForceTV(lzs) Factory:device/P2P_android_glxs_v3.0_2016mc_uplog_20180619_10:49:56
+07:14:54-958 Develop Version:New version 2013,do not support old server, 3.14.17.8 build[Jun 19 2018 10:49:56]
+07:14:54-958 forcetv_init port:9906, pool:20MB
+07:14:54-958 forcetv now 2020-01-29 07:14:54
+07:14:54-959 call chan_block::instance()->open
+07:14:54-959 j_fixed_mem_pool::malloc try alloc num:18204, size:1152, alloc_block:0, used_block:0
+07:14:54-967 j_fixed_mem_pool::malloc prt min:0xcd003000, max:0xde2e4b04
+07:14:54-967 chan_block::instance()->open success
+07:14:54-967 net_task::instance()->open success
+07:14:54-967 chan_mgr::instance()->open success
+07:14:54-967 publisher_mgr::instance()->open success
+07:14:54-967 x_ms_acceptor::open fd:37, local:0.0.0.0:9906
+07:14:54-967 x_ms_acceptor ip:127.0.0.1, port:9906
+07:14:54-967 x_ms_acceptor ip:192.168.8.160, port:9906
+07:14:54-967 ms_acceptor::instance()->open success
+07:14:54-967 forcetv_run is_block:0
+07:14:54-967 x_net_task run call run_reactor_event_loop 0x4949
+07:23:07-628 Java_com_forcetech_android_ForceTV_stop
+07:23:07-628 forcetv_stop
+07:23:07-632 x_net_task run exit 0x4949
+07:23:08-629 forcetv_exit 
+07:23:08-629 _forcetv_exit
+07:23:08-629 _forcetv_exit net_task::close()
+07:23:08-630 _forcetv_exit wait_task::close()
+07:23:08-630 _forcetv_exit chan_block::is_instance()
+07:23:08-656 _forcetv_exit chan_block::close()
+07:23:08-656 _forcetv_exit J_OS::uninit_socket()
+07:23:08-656 _forcetv_exit x_log::close()
